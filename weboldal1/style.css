@@ -1,0 +1,90 @@
+body{
+  max-width:1200px;
+  margin:0 auto;
+}
+.container{
+  margin:0 15%;
+}
+header{
+  background-image:url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:400px;
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
+}
+header, blockquote{
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+}
+p,li,section>h3,article>h3{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+};
+.felirat{
+  font-family: 'Merriweather', serif;
+  font-size:15px;
+  font-style:italic;
+}
+p, li{
+  line-height:2rem;
+}
+.upper{
+  text-transform:uppercase;
+}
+main{
+  font-size:1.2rem;
+  margin:4rem 0;
+}
+blockquote{
+  background-color:grey;
+  height:15rem;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:0;
+  color:white;
+}
+div>h1{
+  margin-top:0;
+  font-size:3.5rem;
+}
+div>h2{
+  margin-bottom:0;
+  font-size:2rem;
+}
+blockquote>h2{
+  font-size:2.5rem;
+  padding-left:1rem;
+
+}
+main, .inner{
+  margin:5%;
+}
+li{
+  list-style-type:square;
+}
+
+section>h3{
+  margin-bottom:0;
+}
+p.felirat{
+  margin-top:0;
+}
+.last{
+  margin-top:3rem;
+  border-top:2px solid grey;
+}
+blockquote{
+quotes: "“" "”" "“" "”" "“" "”";
+position:relative;
+}
+  blockquote::before{
+   content: open-quote;
+   font-size:7rem;
+    position:absolute;
+    top:0;
+    left:20px;
+}

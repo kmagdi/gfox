@@ -1,0 +1,148 @@
+body{
+  max-width:1000px;
+  margin:0 auto;
+}
+nav{
+   background-color: #2f3133;
+}
+nav ul{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+a{
+  text-decoration: none;
+  color:white;
+  display:block;
+  padding:10px;
+}
+nav a:hover{
+  background-color: black;
+}
+/**flex menu for larger screen*/
+@media screen and (min-width:768px){
+  nav ul{
+    display: flex;
+  }
+nav>ul li{
+  flex:1 1 0;
+  display: flex;
+  justify-content:space-around;
+  font-size:1.5rem;
+  padding:10px;
+}
+
+header{
+  width: 60%;
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.left{
+  width: 50%;
+  height: 400px;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png") ;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.right{
+  width: 50%;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  margin-left: -100px;
+}
+
+.container{
+ display:flex;
+ flex-wrap:wrap;
+ flex-direction:column;
+}
+.row{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.col1{
+  flex:0 1 30%;
+  display: flex;
+  flex-direction: column;  
+  justify-content:flex-start;
+}
+.col2{
+  flex:1 1 60%;
+}
+main.col2{
+  margin-left:-150px;
+}
+header, blockquote{
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+}
+p,li,section>h3,article>h3{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+}
+.felirat{
+  font-family: 'Merriweather', serif;
+  font-size:15px;
+  font-style:italic;
+ 
+}
+.upper{
+  text-transform:uppercase;
+}
+main{
+  font-size:1.2rem;
+  margin:4rem 0;
+ 
+}
+
+blockquote{
+  background-color:#2f3133;
+  display:flex;
+  justify-content:center;
+  margin:0;
+  color:white;
+  padding:20px;
+}
+div>h1{
+  margin-top:0;
+  margin-bottom:0;
+  font-size:3rem;
+}
+div>h2{
+  margin-bottom:0;
+  font-size:1.5rem;
+}
+blockquote>h2{
+  font-size:2rem;
+}
+main, .inner{
+  margin:5%;
+}
+li{
+  list-style-type:square;
+}
+section>h3{
+  margin-bottom:0;
+}
+p.felirat{
+  margin-top:0;
+}
+
+blockquote>div{
+  font-size:4rem;
+}
+.nev{
+  display:flex;
+  flex-direction:column;
+}
+.nev>h1,.nev>h2{
+  flex:1 1 0;
+}
+#ach{
+  margin-top:20px;
+}

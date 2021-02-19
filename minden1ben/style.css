@@ -1,0 +1,44 @@
+.container{
+  width:1200px;
+  margin:0 auto;
+  display:flex;
+  flex-direction:column;
+}
+div{
+  flex-grow:1;
+  display:flex;
+}
+
+nav{
+  flex-grow:1;
+  height:70px;
+  background-color:aqua;
+}
+aside.left{
+  flex-grow:1;
+  background-color:orange;
+}
+aside.right{
+  flex-grow:1;
+  background-color:purple;
+}
+main{
+  flex-grow:4;
+  background-color:red;
+  height:600px;
+  margin:0 20px;
+  position:relative;
+}
+footer{
+  flex-grow:1;
+  height:70px;
+  background-color:black;
+}
+.fix{
+  width:50px;
+  height:50px;
+  background-color:black;
+  position:absolute;
+  bottom:20px;
+  right:20px;
+}

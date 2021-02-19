@@ -1,0 +1,35 @@
+body{
+  /*max-width:900px;*/
+  margin:0 auto;
+}
+nav ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  height:50px;
+  background-color:purple;
+  display:flex;
+  align-items:center;
+}
+nav a{
+  display:block;
+  text-decoration:none;
+  background-color:cyan;
+  height:30px;
+  width:80px;
+  margin-left:5px;
+}
+.content{
+  display:flex;
+  height:100vw;
+}
+main{
+  background-color:yellow;
+  /*height:500px;*/
+  flex-grow:3;
+}
+aside{
+  flex-grow:1;
+  background-color:lime;
+ /* height:500px;*/
+}
