@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    max-width: 300px;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+.box{
+    flex:1 1 100%;
+    border:1px solid gray;
+    text-align:justify;
+    padding: 4px;
+}
+.box:hover{
+    background-color: aquamarine;
+}

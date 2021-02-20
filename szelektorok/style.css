@@ -1,0 +1,16 @@
+body{
+    max-width: 500px;
+    margin:0 auto;
+}
+.asteroid.big{
+    color:blue;
+}
+.container div{
+    border:1px solid green;
+}
+p.asteroid{
+    background-color: yellow;
+}
+div.asteroid{
+    font-weight: bold;
+}

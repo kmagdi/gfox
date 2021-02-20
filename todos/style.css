@@ -1,0 +1,89 @@
+body{
+    color:#e1e8f0;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#6ed3cf;
+    max-width: 800px;
+    margin:0 auto;
+}
+.container{
+   
+    background-color: #9068be;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2rem;
+    min-height: 80vw;
+}
+form{
+    width:90%;
+    display:flex;
+    justify-content: center;
+}
+form div{
+    width:100%;
+    display: flex;
+    border: 2px solid rgb(117, 122, 108,55%);
+    box-shadow:3px 3px rgb(117, 122, 108,55%);
+   
+}
+input{
+    width:100%;
+    padding: 10px;
+    border:0;
+    font-size:1.5rem;
+    color: rgba(39, 39, 38, 0.55);
+   }
+#add{
+    padding: 10px;
+    background-color: #e62739;
+    color:wheat;
+    margin-left:0;
+    border:0;
+}
+
+ul{
+    width:80%;
+    line-height: 2rem;
+    list-style-type: none;
+    margin-left:-2rem;
+}
+
+div.todo-item{
+    display:flex; 
+    justify-content: space-between;
+}
+div.btns{
+    display:flex;
+}
+div.del{
+    background-image: url(kuka.svg);
+}
+div.ok{
+    background-image: url(ok.svg);
+
+    /*csak firefox-ban működik*/
+   /* mask:url(ok.svg);
+    background-color: black;
+    mask-size: cover;*/
+}
+div.del , div.ok {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+ 
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+.strike {
+    text-decoration: line-through;
+  }
+  .greeno{
+    background:#6ed3cf !important;
+  }
+  .change{
+      background-image: url(ko.svg) !important;
+}
