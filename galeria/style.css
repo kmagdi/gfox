@@ -33,7 +33,7 @@ figure img{
 .thumb{
     flex:1 1 100%;
     display: flex;
-   flex-wrap:nowrap;
+   flex-wrap:wrap;
     justify-content: center;
     
 }
