@@ -4,8 +4,9 @@ body{
     flex-direction: column;
     margin:0 auto;
     background-color:#bedcfa ;
-    font-size: 1.5rem;
+   font-size: 1vw;
     margin-top: 1rem;
+    
 }
 
 .row{
